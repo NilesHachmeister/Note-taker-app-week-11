@@ -51,19 +51,19 @@ The best way to contact me is through email.
 ## Example
 
 This example demonstrates what the page looks like on first load:
-<img src="./exampleimg/example1.png" alt="an image demonstrating what the page looks on load">
+<img src="./exampleimgs/example1.png" alt="an image demonstrating what the page looks on load">
 
 This example demonstrates what the note page looks like:
-<img src="./exampleimg/example2.png" alt="an image demonstrating what the note page looks like">
+<img src="./exampleimgs/example2.png" alt="an image demonstrating what the note page looks like">
 
 This example demonstrates after the user has typed in a note title and note text, the save button appear on the top right side of the page:
-<img src="./exampleimg/example3.png" alt="an image demonstrating how to get the save button to appear">
+<img src="./exampleimgs/example3.png" alt="an image demonstrating how to get the save button to appear">
 
 This example demonstrates what the page looks like when the user clicks on a previously saved note:
-<img src="./exampleimg/example4.png" alt="an image demonstrating what the page looks like when the user clicks on a previously saved note">
+<img src="./exampleimgs/example4.png" alt="an image demonstrating what the page looks like when the user clicks on a previously saved note">
 
 This example demonstrates that the user is able to delete saved notes:
-<img src="./exampleimg/example5.png" alt="an image demonstrating that the user is able to delete saved notes">
+<img src="./exampleimgs/example5.png" alt="an image demonstrating that the user is able to delete saved notes">
 
 
 ## Questions
