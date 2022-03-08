@@ -2,8 +2,7 @@ const express = require('express');
 const notes = require('./notesRoute')
 const app = express();
 
-app.use(express.static('public'));
-
+// creating the route for /api/notes
 app.use('/notes', notes)
 
 module.exports = app;
