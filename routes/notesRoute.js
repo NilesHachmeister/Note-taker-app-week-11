@@ -15,21 +15,15 @@ notes.post('/', (req, res) => {
     }
 
 
-    let currentDbJSON = fs.readFileSync(db, "utf-8");
+    let currentDbJSON = fs.readFileSync('./db/db.json', "utf-8");
     let currentDb = JSON.parse(currentDbJSON)
     currentDb.push(newNote)
 
+    console.log(currentDb);
+
     let fileToSend = JSON.stringify(currentDb)
 
-    fs.appendFile('./db/db.json', fileToSend, (err) =>
-        err
-            ? console.error(err)
-            : console.log(
-                `the note has been added`
-            ));
-
-
-    // fs.writeFileSync("users.json",usersjson,"utf-8");
+    fs.writeFileSync('./db/db.json', fileToSend, "utf-8");
 
 })
 
