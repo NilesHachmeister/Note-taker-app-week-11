@@ -20,9 +20,9 @@ app.get('/notes', (req, res) =>
 );
 
 // sending the public/index.html file when accessing the base of server
-app.get('/', (req, res) =>
-    res.sendFile(path.join(__dirname, '/public/index.html'))
-);
+// app.get('/', (req, res) =>
+//     res.sendFile(path.join(__dirname, '/public/index.html'))
+// );
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/index.html'))
 })
