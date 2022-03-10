@@ -1,1 +1,7 @@
-[{"title":"Example Title","text":"Example text","id":"f531"},{"title":"Example3","text":"Example3","id":"d251"}]
+[
+    {
+        "title": "Example Title",
+        "text": "Example text",
+        "id": "f531"
+    }
+]

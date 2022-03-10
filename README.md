@@ -22,6 +22,9 @@ The goal of this project is to provide the user with an application that allows 
 * [Example
   ](#example)
 
+* [Deployed
+  ](#deployed)
+
 * [Questions
   ](#questions)
 
@@ -65,6 +68,10 @@ This example demonstrates what the page looks like when the user clicks on a pre
 This example demonstrates that the user is able to delete saved notes:
 <img src="./exampleimgs/example5.png" alt="an image demonstrating that the user is able to delete saved notes">
 
+## Deployed
+
+The deployed app can be found at:
+https://niles-hachmeister-note-taker.herokuapp.com/
 
 ## Questions
 
